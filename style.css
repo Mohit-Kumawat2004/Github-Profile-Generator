@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #001f33, #003f66);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: #2a3f54;
+    color: white;
+    max-width: 300px;
+  }
+  
+  .search-box button {
+    padding: 0.75rem 1.5rem;
+    background-color: #c06d15;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-box button:hover {
+    background-color: #0d47a1;
+  }
+  .search-box button:active{
+    scale: 0.95;
+  }
+  .profile-card {
+    background-color: #1a2733;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left {
+    flex-shrink: 0;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid palevioletred;
+    object-fit: cover;
+  }
+  
+  .right {
+    flex: 1;
+    text-align: left;
+    color: #d6e4f0;
+  }
+  
+  .username {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #bbdefb;
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .row p {
+    flex: 1 1 30%;
+    min-width: 200px;
+    line-height: 1.5;
+  }
+  
+  strong {
+    color: #f66475;
+  }
+  
+  a {
+    color: greenyellow;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 700px) {
+    .profile-card {
+      flex-direction: column;
+    }
+  
+    .right {
+      text-align: center;
+    }
+  
+    .row {
+      justify-content: center;
+    }
+  
+    .row p {
+      text-align: center;
+    }
+  
+    .username {
+      text-align: center;
+    }
+  }
+  
+  .pr {
+    color: #d6084d;
+  }
+  

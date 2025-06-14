@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Profile Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <div class="container">
+    <h1>GitHub <span class="pr">Profile</span>  Generator</h1>
+    
+    <div class="search-box">
+      <input id="usernameinp" type="text" placeholder="Enter GitHub Username" />
+      <button id="searchbtn">Search</button>
+    </div>
+
+   <div class="profile-card" id="profile-card" style="display: none;">
+      <div class="left">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="GitHub Profile" class="avatar"/>
+      </div>
+      <div class="right">
+        <h2 class="username">github</h2>
+
+        <div class="row">
+          <p><strong>Name:</strong> GitHub, Inc.</p>
+          <p><strong>Repos:</strong> 133</p>
+        </div>
+
+        <div class="row">
+          <p><strong>Followers:</strong> 2M</p>
+          <p><strong>Following:</strong> 0</p>
+        </div>
+
+        <div class="row">
+          <p><strong>Location:</strong> San Francisco</p>
+          <p><strong>Company:</strong> Microsoft</p>
+        </div>
+
+        <div class="row">
+          <p><strong>Blog:</strong> <a href="https://github.blog" target="_blank">github.blog</a></p>
+        </div>
+
+        <div class="row">
+          <p><strong>Bio:</strong> We build tools like GitHub Codespaces, Copilot, Actions, and more.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
