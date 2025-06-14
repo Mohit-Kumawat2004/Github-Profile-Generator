@@ -7,11 +7,10 @@
 ## 📸 Preview
 
 ### 🔍 GitHub Profile Search UI
-![GitHub Profile Generator Preview 1](Screenshot%202025-06-14%20125738.png)
-
-### 👤 GitHub Profile Result
 ![GitHub Profile Generator Preview 2](Screenshot%202025-06-14%20125941.png)
 
+### 👤 GitHub Profile Result
+![GitHub Profile Generator Preview 1](Screenshot%202025-06-14%20125738.png)
 ---
 
 ## 🧠 Features
