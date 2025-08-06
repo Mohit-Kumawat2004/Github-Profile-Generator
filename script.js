@@ -5,9 +5,9 @@ let card = document.querySelector("#profile-card");
 function getProfileData(username) {
   return fetch(`https://api.github.com/users/${username}`).then((raw) => {
     if (!raw.ok) throw new Error("User not found. Please try again.");
-    return raw.json();
+    return raw.json(); 
   });
-}
+} 
 
 function getRepos(username) {
   return fetch(
